@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Michael Gonzalez Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .header {
+            background-color: #FFB900;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: -1.1%;
+            margin-right: -.4%;
+            margin-left: -4%;
+            padding-bottom: 4%;
+        }
+
+        .header h2 {
+            font-style: italic;
+            font-size: 1.1vw;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        body {
+            background-color: #00A4EF;
+            margin: 0px;
+        }
+
+        .header-image {
+            width: 100%;
+            max-width: 40px;
+        }
+
+        #about-me-section {
+            height: 100px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: aliceblue;
+            background-color: #FFB900;
+            width: 100%;
+            height: 50px;
+            bottom: 0px;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-main">
+            <img class="header-image"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAALVBMVEXyUCJ/ugAApO//uQD////yTh/zVy2EvRYWp/D/uxbyTBvzXziJvyQkq/D/viRJQpTmAAABDUlEQVR4nO3PyRHCQBAEwRHo5vDfXD1ZC5oYyHKgIqtSLev8aZtixYCEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIQdhUuq81vCNdZjED63WDX/eoT9I+wfYf8I+0fYv9pjvYbt+4hVt1j7IDzusQgJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn/WXgB6/1wCkBWrdwAAAAASUVORK5CYII="
+                alt="Microsoft2">
+            Michael Gonzalez
+            <img class="header-image"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAALVBMVEXyUCJ/ugAApO//uQD////yTh/zVy2EvRYWp/D/uxbyTBvzXziJvyQkq/D/viRJQpTmAAABDUlEQVR4nO3PyRHCQBAEwRHo5vDfXD1ZC5oYyHKgIqtSLev8aZtixYCEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIQdhUuq81vCNdZjED63WDX/eoT9I+wfYf8I+0fYv9pjvYbt+4hVt1j7IDzusQgJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQn/WXgB6/1wCkBWrdwAAAAASUVORK5CYII="
+                alt="Microsoft1">
+        </h1>
+        <h2>Aspiring For Greatness</h2>
+        <div>
+            <a href="javascript:AboutMe()">About Me</a>
+            <a href="javascript:PersonalInterest()">Personal Interests</a>
+            <a href="javascript:ProfessionalInterest()">Professional Interests</a>
+        </div>
+    </header>
+
+    <section id="about-me-section" class="hidden">
+        <h2>About Me</h2>
+        <p>My name is Michael and I like to code, I mainly enjoy C# but like to dwell in HTML, CSS and Javascript.</p>
+    </section>
+    <section id="personal-interest-section" class="hidden">
+        <h2> Personal Interest</h2>
+        <p>Some of my personal interests include coding and learning how to code, learning from friends is so beneficial
+            and I am grateful for all opportunites.</p>
+    </section>
+    <section id="professional-interest-section" class="hidden">
+        <h2> Professional Interest</h2>
+        <p> Coding</p>
+    </section>
+    <footer>
+        <p>Michael Gonzalez &#169; 2022 </p>
+    </footer>
+    <form>
+
+    </form>
+</body>
+<script>
+    let lastPage = "about-me-section";
+    function AboutMe() {
+        document.getElementById(lastPage).classList.add("hidden");
+        document.getElementById("about-me-section").classList.remove("hidden");
+        lastPage = "about-me-section";
+    }
+    function PersonalInterest() {
+        document.getElementById(lastPage).classList.add("hidden");
+        document.getElementById("personal-interest-section").classList.remove("hidden");
+        lastPage = "personal-interest-section";
+    }
+    function ProfessionalInterest() {
+        document.getElementById(lastPage).classList.add("hidden");
+        document.getElementById("professional-interest-section").classList.remove("hidden");
+        lastPage = "professional-interest-section";
+    }
+</script>
+
+</html>
