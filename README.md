@@ -1,2 +1,2 @@
 # Personal-Site
-Peronsal site built with HTML CSS and JavaScript
+Personal site built with HTML CSS and JavaScript
