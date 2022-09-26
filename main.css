@@ -1,0 +1,97 @@
+.header {
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -1.1%;
+    margin-right: -.4%;
+    margin-left: -4%;
+    padding-bottom: 4%;
+}
+
+.header h2 {
+    font-style: italic;
+    font-size: 1.1vw;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 40px;
+}
+
+#about-me-section {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    position: fixed;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
