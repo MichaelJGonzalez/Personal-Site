@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: white;
     margin: 0px;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -43,7 +43,7 @@ footer {
 
 :root {
     --white: white;
-    --gray: #f0f0f0;
+    --gray: darkgray;
     --black: #000000;
 }
 
@@ -51,6 +51,33 @@ body {
     background: var(--bg);
     color: var(--fontColor);
     font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutme {
+    background-color: rgb(178, 185, 192);
+    width: 300px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#personal-interest-section {
+    background-color: rgb(178, 185, 192);
+    width: 300px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#professional-interest-section {
+    background-color: rgb(178, 185, 192);
+    width: 300px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px;
+    line-height: 1.6;
 }
 
 ul {
