@@ -55,7 +55,7 @@ body {
 
 .aboutme {
     background-color: rgb(178, 185, 192);
-    width: 300px;
+    max-width: 300px;
     border: 15px solid lightblue;
     padding: 50px;
     margin: 20px;
@@ -64,7 +64,7 @@ body {
 
 #personal-interest-section {
     background-color: rgb(178, 185, 192);
-    width: 300px;
+    max-width: 300px;
     border: 15px solid lightblue;
     padding: 50px;
     margin: 20px;
@@ -73,7 +73,7 @@ body {
 
 #professional-interest-section {
     background-color: rgb(178, 185, 192);
-    width: 300px;
+    max-width: 300px;
     border: 15px solid lightblue;
     padding: 50px;
     margin: 20px;
