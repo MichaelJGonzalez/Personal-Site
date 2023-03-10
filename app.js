@@ -15,6 +15,11 @@ function ProfessionalInterest() {
     document.getElementById("professional-interest-section").classList.remove("hidden");
     lastPage = "professional-interest-section";
 }
+function Links() {
+    document.getElemenyById(lastPage).classList.add("hidden");
+    document.getElementById("links-section").classList.remove("hidden");
+    lastPage = "links-section";
+}
 const switcher = document.querySelector('.btn');
 switcher.addEventListener('click', function () {
     document.body.classList.toggle('light-theme');

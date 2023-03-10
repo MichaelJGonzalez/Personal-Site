@@ -60,7 +60,14 @@ body {
     padding: 50px;
     margin: 20px;
     line-height: 1.6;
+
 }
+
+/*.about_me_img {
+    float: right;
+    width: 100px;
+    height: 100px;
+}*/
 
 #personal-interest-section {
     background-color: rgb(178, 185, 192);
@@ -72,6 +79,15 @@ body {
 }
 
 #professional-interest-section {
+    background-color: rgb(178, 185, 192);
+    max-width: 300px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#links-section {
     background-color: rgb(178, 185, 192);
     max-width: 300px;
     border: 15px solid lightblue;
