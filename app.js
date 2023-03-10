@@ -16,7 +16,7 @@ function ProfessionalInterest() {
     lastPage = "professional-interest-section";
 }
 function Links() {
-    document.getElemenyById(lastPage).classList.add("hidden");
+    document.getElementById(lastPage).classList.add("hidden");
     document.getElementById("links-section").classList.remove("hidden");
     lastPage = "links-section";
 }

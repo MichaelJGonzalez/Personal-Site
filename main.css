@@ -10,6 +10,31 @@
     font-style: italic;
 }
 
+#about-me-section h2,
+h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#personal-interest-section h2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#professional-interest-section h2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#links-section h2 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.myDiv {
+    font-style: italic;
+}
+
 .hidden {
     display: none;
 }
